@@ -1,0 +1,92 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Python backend
+**/venv/
+**/.venv/
+**/__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/serviceAccountKey.json
+**/firebase-adminsdk*.json
+*.pem
+*.key
+
+# Local databases and private data
+*.sqlite3
+*.db
+
+# Python environments, test caches and packaging outputs
+**/env/
+**/.envdir/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+**/*.egg-info/
+/dist/
+/backend/build/
+/backend/dist/
+.ipynb_checkpoints/
+
+# Private credentials and local sensitive datasets (keep model artifacts)
+.aws/
+credentials.json
+credentials.*.json
+*service-account*.json
+*.p12
+*.pfx
+*.jks
+*.keystore
+**/data/private/
+**/data/sensitive/
+**/datasets/private/
+**/datasets/sensitive/
